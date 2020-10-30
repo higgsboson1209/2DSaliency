@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.6)
+# Replace  with your project name
+project(tryingopen_CV)
+set(OpenCV_DIR /home/saksham/opencv/build)
+find_package(OpenCV REQUIRED)
+message(STATUS "OpenCV library status:")
+message(STATUS "    version: ${OpenCV_VERSION}")
+message(STATUS "    libraries: ${OpenCV_LIBS}")
+message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
+include_directories(${OpenCV_INCLUDE_DIRS})
+set(CMAKE_CXX_STANDARD 11)
+set(SOURCE_FILES main.cpp)
+# This is to compile main.cpp into an executable named vision_test
+add_executable(tryingopen_CV main.cpp)
+target_link_libraries(tryingopen_CV ${OpenCV_LIBS})

@@ -1,0 +1,3 @@
+/home/saksham/CLionProjects/tryingopen_CV/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/saksham/CLionProjects/tryingopen_CV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/saksham/CLionProjects/tryingopen_CV/cmake-build-debug/CMakeFiles/tryingopen_CV.dir
